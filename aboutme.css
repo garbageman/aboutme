@@ -2,3 +2,7 @@
   height : 46px;
   background-color : #FFEDDF;
 }
+
+.navbar-list {
+  list-style-type : none;
+}
