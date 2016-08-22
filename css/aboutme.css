@@ -1,8 +1,18 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
 .navbar {
   height : 46px;
-  background-color : #FFEDDF;
+  background-color : #0D1321;
 }
 
 .navbar-list {
   list-style-type : none;
+}
+
+.navbar-link {
+  margin-top : 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size : 15px;
+  text-transform: uppercase;
+  color : #FFEDDF;
 }
