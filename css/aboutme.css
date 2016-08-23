@@ -1,18 +1,41 @@
-@import 'https://fonts.googleapis.com/css?family=Raleway';
+@import 'https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab|Roboto';
 
 .navigation-bar {
-  height : 46px;
-  background-color : #0D1321;
+  height: 56px;
+  background-color: #0D1321;
 }
 
 .navbar-list {
-  list-style-type : none;
+  list-style-type: none;
 }
 
 .navbar-link {
-  margin-top : 15px;
+  margin-top: 18px;
   font-family: 'Raleway', sans-serif;
-  font-size : 20px;
-  text-transform: uppercase;
-  color : #FFEDDF;
+  font-size: 20px;
+  color: #FFEDDF;
+  text-align: center;
+}
+
+.main-content {
+
+}
+
+.profile-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  margin: 25px;
+}
+
+.summary-title {
+  padding: 25px;
+  font-size: 35px;
+  font-family: 'Roboto Slab', serif;
+}
+.summary-content {
+  font-weight: lighter;
+  font-family: 'Roboto', serif;
+}
+.summary-info {
 }
