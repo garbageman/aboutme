@@ -1,7 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab|Roboto';
 
 .navigation-bar {
-  height: 56px;
   background-color: #0D1321;
 }
 
@@ -20,6 +19,7 @@
 @media (min-width: 992px) {
   .navbar-link {
     padding-top: 18px;
+    padding-bottom : 18px;
   }
 }
 
@@ -28,10 +28,11 @@
   font-size: 20px;
   color: #FFEDDF;
   text-align: center;
+  background-color: #0D1321;
 }
 
 .main-content {
-
+  padding-top : 20px;
 }
 
 .profile-img {
