@@ -21,6 +21,9 @@
     padding-top: 18px;
     padding-bottom : 18px;
   }
+  .main-content {
+    padding : 20px 50px 0px 50px;
+  }
 }
 
 .navbar-link {
@@ -29,10 +32,6 @@
   color: #FFEDDF;
   text-align: center;
   background-color: #0D1321;
-}
-
-.main-content {
-  padding-top : 20px;
 }
 
 .profile-img {
@@ -54,4 +53,18 @@
   font-family: 'Roboto', serif;
 }
 .summary-info {
+}
+
+.angular-img {
+  width : 25px;
+  height : 25px;
+}
+
+.profile-pic {
+  background-image : url("../img/portrait.JPG");
+  background-size : cover;
+  width : 150px;
+  height : 150px;
+  background-position-y : -10px;
+  border-radius : 50%;
 }
