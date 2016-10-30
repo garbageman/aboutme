@@ -1,18 +1,25 @@
-@import 'https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab|Roboto';
+@import 'https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab|Roboto|Montserrat|Lato';
 
-.navigation-bar {
-  background-color: #0D1321;
+.title {
+  padding-left : 1rem;
+  float: left;
 }
 
-.navbar-list {
-  list-style-type: none;
-  background-color: #0D1321;
+.navigation-bar {
+  background-color: #FAFAFA;
 }
 
 @media (max-width: 992px) {
   .navbar-link {
     padding-top: 9px;
     padding-bottom : 9px;
+  }
+  .navigation-bar {
+    background-color: #FAFAFA;
+  }
+  .navbar-list {
+    list-style-type: none;
+    background-color: #FAFAFA;
   }
 }
 
@@ -22,16 +29,23 @@
     padding-bottom : 18px;
   }
   .main-content {
-    padding : 20px 50px 0px 50px;
+    /* padding : 20px 50px 0px 50px; */
+  }
+  .navbar-list {
+    list-style-type: none;
+    background-color: #FAFAFA;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 }
 
 .navbar-link {
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-  color: #FFEDDF;
-  text-align: center;
-  background-color: #0D1321;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 16px;
+  color: #0A0A0A;
+  text-transform : uppercase;
+  background-color: ##FAFAFA;
 }
 
 .profile-img {
@@ -43,16 +57,25 @@
   margin-right: auto;
 }
 
-.summary-title {
+.sub-title {
   padding: 25px;
-  font-size: 35px;
+  padding-bottom: 50px;
+  font-size: 24px;
   font-family: 'Roboto Slab', serif;
+  text-align: center;
 }
+
 .summary-content {
   font-weight: lighter;
   font-family: 'Roboto', serif;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
 }
 .summary-info {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .angular-img {
@@ -67,4 +90,63 @@
   height : 150px;
   background-position-y : -10px;
   border-radius : 50%;
+}
+
+.ollie {
+  width: 75%;
+  height: 75%;
+}
+
+.umd-logo {
+  width: 40%;
+  height: 40%;
+}
+
+.leidos-logo {
+  padding-top:48px;
+  width: 75%;
+  height: 75%;
+}
+
+.profile-pic-container {
+  background-color: #5f7eee;
+  padding-top : 24px;
+  padding-bottom : 24px;
+}
+
+.work-content {
+  padding-bottom: 50px;
+}
+
+.extra-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #0A0A0A;
+  font-family: 'Roboto Slab', serif;
+}
+
+.page-end {
+  background-color: #FAFAFA;
+  padding: 25px;
+}
+
+.info {
+  float: right;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.work-title {
+  padding-bottom: 15px;
+  font-size: 15px;
+  text-align: center;
+  color: #0A0A0A;
+  font-family: 'Roboto Slab', serif;
+}
+
+.work-desc {
+  padding-bottom: 15px;
+  text-align: center;
 }

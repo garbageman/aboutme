@@ -8,67 +8,125 @@
   <link rel='stylesheet' href='css/bootstrap.min.css'/>
   <link rel='stylesheet' href='css/reset.css'/>
 </head>
-<body>
+<body class="container-fluid">
   <div class="navigation-bar row">
     <ul class="navbar-list">
-      <li class="navbar-link col-md-2">Damien Nagle</li>
-      <li class="navbar-link col-md-2">About Me</li>
-      <li class="navbar-link col-md-2">Skills</li>
-      <li class="navbar-link col-md-2">Work Experience </li>
-      <li class="navbar-link col-md-2">Projects </li>
+      <li class="navbar-link title">Damien Nagle</li>
+      <li class="navbar-link info"><a class="navbar-link" href="#contact">Contact</a></li>
+      <li class="navbar-link info"><a class="navbar-link" href="#projects">Projects</a></li>
+      <li class="navbar-link info"><a class="navbar-link" href="#orgs">Orgs</a></li>
+      <li class="navbar-link info"><a class="navbar-link" href="#work">Work</a></li>
     </ul>
   </div>
-  <div class="main-content row">
-    <div class="content-title">
-      <div class = "col-lg-2">
-        <div class="profile-pic"></div>
-        <!-- <img class = "profile-img" src="img/portrait.JPG"> -->
-      </div>
-      <div class = "summary-info col-lg-10">
-        <div class = "summary-title">
-          About Me
-        </div>
+  <div class="content-title row">
+    <div class = "profile-pic-container">
+      <div class="profile-pic center-block"></div>
+      <!-- <img class = "profile-img" src="img/portrait.JPG"> -->
+      <div class = "summary-info">
         <div class = "summary-content">
-          I'm a student at the University of Maryland, College Park. I like to
-          do web development and have fun XD XD. Marcus is mah best frand, especially
-          when he helps me create my own web page.
+          I'm a Computer Science student at the University of Maryland, College Park and
+          a future Software Engineer at TripAdvisor! In my spare time I enjoy working on
+          side projects and coaching for a group called Interprep.
         </div>
       </div>
     </div>
-    <div class="content-skills">
-      <div class="skills-title">
-        Skills
+  </div>
+  <div class="sub-title row">
+    <div>
+      <a name="work"></a>
+      Work Experience
+    </div>
+  </div>
+  <div class="work-content row">
+    <div class="col-md-1"></div>
+    <div class="col-md-3">
+      <!-- <div class="ollie"></div> -->
+      <a  href="https://www.tripadvisor.com">
+        <img class="ollie center-block" src="img/Ollie.png">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <img class="umd-logo center-block" src="img/UMD_Logo.png">
+    </div>
+    <div class="col-md-3">
+      <img class="leidos-logo center-block" src="img/leidos-logo.png">
+    </div>
+  </div>
+  <div class="work-content row">
+    <div class="col-md-1"></div>
+    <div class="col-md-3">
+      <div class="work-title">Software Engineer Intern</div>
+    </div>
+    <div class="col-md-4">
+      <div class="work-title">Teaching Assistant</div>
+      <div class="work-desc"><a href="https://www.cs.umd.edu/class/fall2016/cmsc330/">CMSC330 Organization of Programming Languages</a></div>
+      <div class="work-title">Research Assistant</div>
+      <div class="work-desc"><a href="http://www.umiacs.umd.edu/research/LCCD/">Laboratory for Computational Cultural Dynamics</a></div>
+    </div>
+    <div class="col-md-3">
+      <div class="work-title">Cloud Software Engineer Intern</div>
+    </div>
+  </div>
+  <div class="sub-title row">
+    <div>
+      <a name="orgs"></a>
+      Organizations
+    </div>
+  </div>
+  <div class="extra-content row">
+    <div class="col-md-1"></div>
+    <div class="extracurricular col-md-10">
+      <div class="extra-header">
+        <a href="http://www.cs.umd.edu/groups/interprep/" class="extra-header"> InterPrep </a>
       </div>
-      <div class="skills-info">
-        <div class="skills-info-header">
-          These are some of the frameworks, languages and technologies that I have worked with
-        </div>
-        <div class = "skills-info-item">
-          <div class = "skills-info-badge col-sm-1">
-            <img class="angular-img" src="http://pucksart.com/wp-content/uploads/2014/10/AngularJS-Shield-large-282x300.png">
-          </div>
-          <div class = "skills-info-label col-sm-1">
-            AngularJS
-          </div>
-        </div>
-        <div class = "skills-info-item">
-          <div class = "skills-info-badge col-sm-1">
-            <img class="angular-img" src="img/nodejs.png">
-          </div>
-          <div class = "skills-info-label col-sm-1">
-            Node.js
-          </div>
-        </div>
-        <div class = "skills-info-item">
-          <div class = "skills-info-badge col-sm-1">
-            <img class="angular-img" src="img/bootstrap.png">
-          </div>
-          <div class = "skills-info-label col-sm-1">
-            Bootstrap
-          </div>
-        </div>
+      <div class="extra-desc">
+        Interprep is a group here at UMD that helps students prepare for technical interviews.
+        I am an admin and a coach for the group.
+      </div>
+      <div class="extra-header">
+        <a href="http://gotechnica.org" class="extra-header"> Technica </a>
+      </div>
+      <div class="extra-desc">
+        Technica is an all womens hackathon that I teach a web development workshop at.
+        This is the site that students learn how to create so they can have their own personal page!
       </div>
     </div>
+  </div>
+  <div class="sub-title row">
+    <div>
+      <a name="projects"></a>
+      Projects
+    </div>
+  </div>
+  <div class="projects-content">
+    <div class="project-header">
+      hire.u
+    </div>
+    <div class="project-desc">
+      Hire.U is an ongoing project that I have been working on with some friends.
+      The website is meant to help undergraduate students find work on campus during
+      the school year and make better decisions about where to work. This project aims
+      to give students a better idea of what opportunities are available to them during
+      the school year and what jobs can help them progress on their career path.
+    </div>
+    <div class="project-header">
+      Collab Coding
+    </div>
+    <div class="project-desc">
+      Collab coding is one of my first hackathon projects. It is an Eclipse plugin that
+      allows developers to work on the same Java project concurrently in real time. The
+      development style is akin to working on the same Google Doc. This project won
+      best Open Source hack at HackRU Fall 2014!
+    </div>
+    <div class="project-header">
+
+    </div>
+    <div class="project-desc">
+
+    </div>
+  </div>
+  <div class="page-end">
+
   </div>
   <footer>
     <!-- JS goes here -->
