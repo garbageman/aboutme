@@ -28,15 +28,17 @@
     padding-top: 18px;
     padding-bottom : 18px;
   }
-  .main-content {
-    /* padding : 20px 50px 0px 50px; */
-  }
   .navbar-list {
     list-style-type: none;
     background-color: #FAFAFA;
     margin-left: 50px;
     margin-right: 50px;
   }
+}
+
+.main-content {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .navbar-link {
@@ -58,7 +60,7 @@
 }
 
 .sub-title {
-  padding: 25px;
+  padding-top: 25px;
   padding-bottom: 50px;
   font-size: 24px;
   font-family: 'Roboto Slab', serif;
@@ -93,29 +95,52 @@
 }
 
 .ollie {
-  width: 75%;
-  height: 75%;
+  width: 100%;
+}
+
+.ollie-container {
+  margin: auto;
+  width: 50%;
+  margin-bottom: 54px;
+}
+
+.umd-container {
+  margin: auto;
+  width: 40%;
+  margin-bottom: 30px;
 }
 
 .umd-logo {
+  width: 100%;
+}
+
+.leidos-container {
+  margin: auto;
   width: 40%;
-  height: 40%;
+  margin-bottom: 95px;
 }
 
 .leidos-logo {
   padding-top:48px;
-  width: 75%;
-  height: 75%;
+  width: 100%;
 }
 
 .profile-pic-container {
   background-color: #5f7eee;
-  padding-top : 24px;
-  padding-bottom : 24px;
+  padding-top : 48px;
+  padding-bottom : 32px;
 }
 
 .work-content {
   padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.content-test {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .extra-header {
@@ -125,6 +150,7 @@
   font-weight: bold;
   color: #0A0A0A;
   font-family: 'Roboto Slab', serif;
+  text-align: center;
 }
 
 .page-end {
@@ -141,12 +167,91 @@
 .work-title {
   padding-bottom: 15px;
   font-size: 15px;
+  font-weight: lighter;
   text-align: center;
   color: #0A0A0A;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', serif;
 }
 
 .work-desc {
   padding-bottom: 15px;
   text-align: center;
+}
+
+.job-logo {
+  float: left;
+  width: 33%;
+}
+
+.cs-logo {
+  width: 100%;
+}
+
+.extra-logo {
+  width: 80%;
+  margin: auto;
+}
+
+.interprep-logo {
+  width: 100%;
+}
+
+.extra-container {
+  float: left;
+  width: 33%;
+}
+
+.extra-desc {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.extra-content {
+  margin-bottom: 50px;
+  display: inline-block;
+}
+
+.contact-logo {
+  display: inline-block;
+  float: left;
+}
+
+.contact-desc {
+  float: left;
+}
+
+.git-logo {
+  width: 50px;
+}
+
+.linkedin-logo {
+  width: 50px;
+}
+
+.email-logo {
+  width: 50px;
+}
+
+.contact-container {
+  float: left;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-info {
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.contact-desc {
+  padding-top: 15px;
+  padding-left: 15px;
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: center;
+  color: #0A0A0A;
+  font-family: 'Roboto', serif;
 }
