@@ -204,6 +204,10 @@
 .extra-desc {
   margin-left: 5%;
   margin-right: 5%;
+  font-size: 15px;
+  font-weight: lighter;
+  color: #0A0A0A;
+  font-family: 'Roboto', serif;
 }
 
 .extra-content {
@@ -254,4 +258,8 @@
   text-align: center;
   color: #0A0A0A;
   font-family: 'Roboto', serif;
+}
+
+.technica-logo {
+  width: 100%;
 }
